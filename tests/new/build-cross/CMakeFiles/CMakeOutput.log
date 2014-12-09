@@ -1,0 +1,92 @@
+The target system is: Linux -  - i486
+The host system is: Linux - 3.13.0-24-generic - x86_64
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec650210404/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec650210404.dir/build.make CMakeFiles/cmTryCompileExec650210404.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec650210404.dir/CheckIncludeFiles.c.o
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD    -o CMakeFiles/cmTryCompileExec650210404.dir/CheckIncludeFiles.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec650210404
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec650210404.dir/link.txt --verbose=1
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD   -Wl,--sysroot,/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ CMakeFiles/cmTryCompileExec650210404.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec650210404 -rdynamic 
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1896692805/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1896692805.dir/build.make CMakeFiles/cmTryCompileExec1896692805.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1896692805.dir/CheckFunctionExists.c.o
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1896692805.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1896692805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1896692805.dir/link.txt --verbose=1
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--sysroot,/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ CMakeFiles/cmTryCompileExec1896692805.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1896692805 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec791737414/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec791737414.dir/build.make CMakeFiles/cmTryCompileExec791737414.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec791737414.dir/CheckIncludeFiles.c.o
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD    -o CMakeFiles/cmTryCompileExec791737414.dir/CheckIncludeFiles.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec791737414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec791737414.dir/link.txt --verbose=1
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD   -Wl,--sysroot,/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ CMakeFiles/cmTryCompileExec791737414.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec791737414 -rdynamic 
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2517207526/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2517207526.dir/build.make CMakeFiles/cmTryCompileExec2517207526.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2517207526.dir/CheckFunctionExists.c.o
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2517207526.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2517207526
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2517207526.dir/link.txt --verbose=1
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--sysroot,/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ CMakeFiles/cmTryCompileExec2517207526.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2517207526 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec873331060/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec873331060.dir/build.make CMakeFiles/cmTryCompileExec873331060.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec873331060.dir/CheckIncludeFiles.c.o
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD    -o CMakeFiles/cmTryCompileExec873331060.dir/CheckIncludeFiles.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec873331060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec873331060.dir/link.txt --verbose=1
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD   -Wl,--sysroot,/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ CMakeFiles/cmTryCompileExec873331060.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec873331060 -rdynamic 
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec107425936/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec107425936.dir/build.make CMakeFiles/cmTryCompileExec107425936.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec107425936.dir/CheckFunctionExists.c.o
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec107425936.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec107425936
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec107425936.dir/link.txt --verbose=1
+/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5/cross/bin/i686-aldebaran-linux-gnu-gcc   --sysroot /home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DOE_CROSS_BUILD -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--sysroot,/home/sebas/Documents/UCR/Estructuras/NAO/sources/linux64-nao-atom-cross-toolchain-1.14.5//sysroot/ CMakeFiles/cmTryCompileExec107425936.dir/CheckFunctionExists.c.o  -o cmTryCompileExec107425936 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/CMakeTmp'
+
+

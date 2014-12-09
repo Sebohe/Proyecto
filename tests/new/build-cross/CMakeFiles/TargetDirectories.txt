@@ -1,0 +1,1 @@
+/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/new/build-cross/CMakeFiles/new.dir

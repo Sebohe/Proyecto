@@ -1,0 +1,318 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1983079592/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1983079592.dir/build.make CMakeFiles/cmTryCompileExec1983079592.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1983079592.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1983079592.dir/CheckSymbolExists.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1983079592
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1983079592.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1983079592.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1983079592 -rdynamic 
+CMakeFiles/cmTryCompileExec1983079592.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1983079592] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1983079592/fast] Error 2
+
+File /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1290918603/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1290918603.dir/build.make CMakeFiles/cmTryCompileExec1290918603.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1290918603.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1290918603.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1290918603
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1290918603.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1290918603.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1290918603 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1290918603] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1290918603/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3888622611/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3888622611.dir/build.make CMakeFiles/cmTryCompileExec3888622611.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3888622611.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3888622611.dir/CheckSymbolExists.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3888622611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3888622611.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3888622611.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3888622611 -rdynamic 
+CMakeFiles/cmTryCompileExec3888622611.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3888622611] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3888622611/fast] Error 2
+
+File /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2712088603/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2712088603.dir/build.make CMakeFiles/cmTryCompileExec2712088603.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2712088603.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2712088603.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2712088603
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2712088603.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2712088603.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2712088603 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2712088603] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2712088603/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1196950170/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1196950170.dir/build.make CMakeFiles/cmTryCompileExec1196950170.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1196950170.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1196950170.dir/CheckSymbolExists.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1196950170
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1196950170.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1196950170.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1196950170 -rdynamic 
+CMakeFiles/cmTryCompileExec1196950170.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1196950170] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1196950170/fast] Error 2
+
+File /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3147649324/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3147649324.dir/build.make CMakeFiles/cmTryCompileExec3147649324.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3147649324.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3147649324.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3147649324
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3147649324.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3147649324.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3147649324 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3147649324] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3147649324/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2938043574/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2938043574.dir/build.make CMakeFiles/cmTryCompileExec2938043574.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2938043574.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2938043574.dir/CheckSymbolExists.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2938043574
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2938043574.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2938043574.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2938043574 -rdynamic 
+CMakeFiles/cmTryCompileExec2938043574.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2938043574] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2938043574/fast] Error 2
+
+File /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4093303683/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4093303683.dir/build.make CMakeFiles/cmTryCompileExec4093303683.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4093303683.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4093303683.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4093303683
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4093303683.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4093303683.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4093303683 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4093303683] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4093303683/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1531539017/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1531539017.dir/build.make CMakeFiles/cmTryCompileExec1531539017.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1531539017.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1531539017.dir/CheckSymbolExists.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1531539017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1531539017.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1531539017.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1531539017 -rdynamic 
+CMakeFiles/cmTryCompileExec1531539017.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1531539017] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1531539017/fast] Error 2
+
+File /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1456869787/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1456869787.dir/build.make CMakeFiles/cmTryCompileExec1456869787.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1456869787.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1456869787.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1456869787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1456869787.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1456869787.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1456869787 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1456869787] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1456869787/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2269137490/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2269137490.dir/build.make CMakeFiles/cmTryCompileExec2269137490.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2269137490.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2269137490.dir/CheckSymbolExists.c.o   -c /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2269137490
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2269137490.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2269137490.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2269137490 -rdynamic 
+CMakeFiles/cmTryCompileExec2269137490.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2269137490] Error 1
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2269137490/fast] Error 2
+
+File /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec564528125/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec564528125.dir/build.make CMakeFiles/cmTryCompileExec564528125.dir/build
+make[1]: Entering directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec564528125.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec564528125.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec564528125
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec564528125.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec564528125.dir/CheckFunctionExists.c.o  -o cmTryCompileExec564528125 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/onfacedetection/build-ff/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec564528125] Error 1
+make: *** [cmTryCompileExec564528125/fast] Error 2
+
+

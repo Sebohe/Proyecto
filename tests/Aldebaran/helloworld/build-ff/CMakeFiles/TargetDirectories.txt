@@ -1,0 +1,2 @@
+/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/helloworld/build-ff/CMakeFiles/helloworld.dir
+/home/sebas/Documents/UCR/Estructuras/NAO/Proyecto/tests/helloworld/build-ff/CMakeFiles/testhelloworld.dir

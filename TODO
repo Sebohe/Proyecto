@@ -1,0 +1,5 @@
+Del movehead, usamos las coordenadas para mover la cabeza que lo sacamosde un formual que hay que hacer.
+
+Obtenemos los datos de esa formula del sound processing,
+
+y activamos el movehead con el codigo del speechbased reaction.
